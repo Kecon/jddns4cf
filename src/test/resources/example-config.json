@@ -1,0 +1,8 @@
+{
+	"authEmail":"user@example.com",
+	"authKey":"abcdef123456789abcdef1235678890",
+	"interfaceName":"eth0",
+	"type":"A",
+	"name":"example.com",
+	"zoneId":"098765432abcdefg0987654321"
+}
