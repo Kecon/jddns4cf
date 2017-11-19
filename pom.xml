@@ -110,4 +110,11 @@
 		<url>https://kecon.se/</url>
 		<name>Kenny Colliander Nordin</name>
 	</organization>
+	<issueManagement>
+		<url>https://github.com/Kecon/jddns4cf/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+	<scm>
+		<url>https://github.com/Kecon/jddns4cf.git</url>
+	</scm>
 </project>

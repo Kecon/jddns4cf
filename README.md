@@ -1,7 +1,7 @@
 # jddns4cf
 Dynamic DNS for Cloudflare® in Java.
 
-The application is supposed to be running on machines that have DHCP assigned IP addresses and want to update a DNS record in Cloudflare®. The program has been tested on both Windows 10 and Ubuntu Linux 16.04 LTS.
+The application is supposed to be running on machines that have DHCP assigned IP addresses and want to update a dynamic DNS record in Cloudflare®. The program has been tested on both Windows 10 and Ubuntu Linux 16.04 LTS.
 
 ## Requirements
 Java 1.8
@@ -20,8 +20,10 @@ The configuration is stored in a JSON file and is supplied as an argument when l
 }
 ```
 
-### systemd example
-This file could be placed in /lib/systemd/system/jddns4cf.service if you would like to run this application as a service in Ubuntu Linux 16.04 LTS with systemd.
+You may list all available interface names using "-i" as single argument.
+
+### Run as a service in systemd
+This file could be placed in /lib/systemd/system/jddns4cf.service if you would like to run this application as a service in Ubuntu Linux 16.04 LTS with systemd. Make sure that paths to both the .jar and config.json are correct.
 
 ```
 [Unit]
